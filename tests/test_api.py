@@ -16,7 +16,20 @@ for i in range(10):
                    "book_rating_count": int(df_request["book_rating_count"][i])}
     r = requests.post(url, json=to_predict_json)
     print(r.json())
-#to_predict_dict = {"book_title": "Writing about Magic",
+
+
+
+
+
+
+
+
+
+
+
+
+
+# to_predict_dict = {"book_title": "Writing about Magic",
 #                   "book_image_url": "https",
 #                   "book_desc": "Do you write fantasy fiction? This book is a resource for authors. Crammed with information, tips, a....",
 #                   "book_genre": "Language|Writing|Nonfiction",
