@@ -1,7 +1,5 @@
 from fastapi import FastAPI
-from sklearn.feature_extraction.text import TfidfVectorizer
-from xgboost import XGBRegressor
-from data import Data
+from app.data import Data
 import numpy as np
 import uvicorn
 import pickle
@@ -12,8 +10,8 @@ import os
 app = FastAPI()
 
 
-clf = pickle.load(open('models/model.pickle', 'rb'))
-vectorizer = pickle.load(open('models/tf_idf.pickle', 'rb'))
+clf = pickle.load(open(r'app/models/model.pickle', 'rb'))
+vectorizer = pickle.load(open(r'app/models/tf_idf.pickle', 'rb'))
 features_names = ['book_pages','book_rating_count']
 
 
@@ -42,6 +40,5 @@ def prepare_desc(desc):
 def prepare_pages(pages):
     return float(pages.split(" ")[0])
 
-
-if __name__ == '__main__':
-    uvicorn.run(app, host='127.0.0.1', port=8000)
+#if __name__ == '__main__':
+#    uvicorn.run(app, host='127.0.0.1', port=8000)
