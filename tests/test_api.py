@@ -2,7 +2,8 @@ import requests
 import pandas as pd
 
 df_request = pd.read_csv(r"../notebooks/data/train.csv")
-url = 'http://127.0.0.1:8000/predict'
+url_heroku = 'https://get-book-rating.herokuapp.com/predict'
+url_local = 'http://127.0.0.1:8000/predict'
 
 for i in range(10):
     to_predict_json = {"book_title": df_request["book_title"][i],
@@ -14,7 +15,7 @@ for i in range(10):
                    "book_pages": df_request["book_pages"][i],
                    "book_review_count": int(df_request["book_review_count"][i]),
                    "book_rating_count": int(df_request["book_rating_count"][i])}
-    r = requests.post(url, json=to_predict_json)
+    r = requests.post(url_heroku, json=to_predict_json)
     print(r.json())
 
 

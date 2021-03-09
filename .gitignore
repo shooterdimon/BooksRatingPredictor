@@ -1,8 +1,5 @@
 __pycache__
 .idea/
 venv/
-notebook/images
-notebook/images_test
-Dockerfile
-Docker.aws.json
-
+notebooks/data/authors.csv
+notebooks/data/submission.csv
