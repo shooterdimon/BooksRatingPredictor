@@ -1,0 +1,12 @@
+numpy==1.20.1
+requests==2.22.0
+fastapi==0.63.0
+pandas==1.2.3
+pydantic==1.8.1
+uvicorn==0.13.4
+aiofiles==0.6.0
+scipy==1.6.1
+scikit-learn==0.23.2
+scikit-image==0.18.1
+xgboost
+python-multipart
