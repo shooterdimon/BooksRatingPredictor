@@ -48,7 +48,7 @@ at the backend and we can not waste time on requests.
 
 ## Schema
 
-![diagram](https://github.com/shooterdimon/KotoScience/blob/master/diagrams/ux.png)
+![diagram](https://github.com/shooterdimon/int20h/blob/master/diagrams/ux.png)
 ## Timeline
 
 ![timeline](https://github.com/shooterdimon/int20h/blob/master/diagrams/timeline.png)
