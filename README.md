@@ -17,13 +17,14 @@ User can fill missed features and get more accurate prediction.
 
 **Python**
 
-`Python` наразі є однією з найпопулярніших мов програмування, причинами цього стали:
-* Простий та легкий синтаксис.
-* Швидкість розробки. На перший погляд, це не так вже і важливо, але час розробника – це гроші замовника. Корпорації на кшталт Google та Apple вже майже десятиліття більшість своєї внутрішньої розробки ведуть, використовуючи цю мову.
-* Спільнота. Любов до цієї мови зі сторони розробників створила величезну групу прихильників, яка активно підтримує перспективні проєкти, фреймворки, відповідає на складні питання на StackOverFlow, та розвиває мову.
-* Універсальність. Ця мова на сьогодні є дуже гнучкою: за допомогою неї, можна навчати дітей програмуванюю, створювати веб-додатки, сервіси, тестувати сайти чи програми, використовувати машинне навчання та програмувати пристрої для Internet Of Things.
+`Python` is one of the most populat programming language. The key features:
+* Simple and easy syntax.
+* Developing speed. Python allows you to develop MVP in few month, than you can test your business solution and be the first at world market. 
+* Community. There are a lot of enthusiats who are working on additional features and developing new functionality.
+* Accessibility & Versatility. You can use `Python` to solve different tasks from web developing to ML solutions. 
 
-Якщо в інших сферах можливо знайти якісь альтернативи, то для задач машинного навчання `Python` посідає перше місце. Так, для статистики та деяких задач існує чудова мова `R`. Але для запуску програмного продукту ця мова не згодиться. Тому `Python` мова, яку однаково зручно використовувати, як для початкового концепту, так і для фінального. Google та Microsoft використовують цю мову як основну у задачах машинного навчання.
+To develop ML solution, you have to use `Python`, because it has libraries that makes ypur development easier and faster, sush as `NummPy`, 
+`Scikit-learn`, `Pandas` and others.
 
 **Streamlit**
 
