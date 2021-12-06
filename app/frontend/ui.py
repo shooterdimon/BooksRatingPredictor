@@ -1,7 +1,7 @@
 import streamlit as st
 import requests
 import imageio
-from multiselect_options import genres
+#from multiselect_options import genres
 
 
 backend = 'http://backend:8000'
@@ -10,11 +10,12 @@ request_json = {}
 
 
 st.title("Get book rating")
-st.header("Book's rating predictor built on goodread's dataset")
+st.header("Book's rating pre"
+          "clerdictor built on goodread's dataset")
 
 
 #book_image
-book_image_container = st.beta_container()
+book_image_container = st.container()
 book_image_container.subheader('Upload cover')
 cover = book_image_container.file_uploader(label='Choose image', help='Book cover importance is 1.7%')
 if cover:
@@ -26,7 +27,7 @@ else:
 
 
 # book_genre
-book_genre_container = st.beta_container()
+book_genre_container = st.container()
 book_genre_container.subheader('Select genres')
 genres_select = book_genre_container.multiselect(label="Genres",options=genres, help='Book genre importance is 2,4%.\nYou can select as many genres as you can')
 if genres_select:
@@ -36,7 +37,7 @@ else:
 
 
 # book_authors
-book_authors_container = st.beta_container()
+book_authors_container = st.container()
 book_authors_container.subheader("Type authors' names")
 authors_select = book_authors_container.text_input(label="Authors", help='Author importance is about 90.5%. Our predictor based on GoodReads dataset, '
                                                                          'that means other authors get bad prediction, because we do not have enough information.')
@@ -47,7 +48,7 @@ else:
 
 
 # book_page
-book_page_container = st.beta_container()
+book_page_container = st.container()
 book_page_container.subheader('Choose number of pages from slider')
 pages_slider = book_page_container.slider(label="Pages",min_value=0,max_value=14000,step=50, help='Book pages importance is 2,6%')
 if pages_slider:
@@ -57,7 +58,7 @@ else:
 
 
 # book_review_count
-book_review_container = st.beta_container()
+book_review_container = st.container()
 book_review_container.subheader('Write number of reviews')
 review_input = book_review_container.number_input(label='Reviews',min_value=0, help='Book reviews importance is 2.8%')
 if review_input:
