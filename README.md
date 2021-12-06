@@ -17,13 +17,13 @@ User can fill missed features and get more accurate prediction.
 
 **Python**
 
-`Python` is one of the most populat programming language. The key features:
+`Python` is one of the most popular programming language. The key features:
 * Simple and easy syntax.
-* Developing speed. Python allows you to develop MVP in few month, than you can test your business solution and be the first at world market. 
-* Community. There are a lot of enthusiats who are working on additional features and developing new functionality.
+* Developing speed. Python allows you to develop MVP in few month, then you can test your business solution and be the first at world market. 
+* Community. There are a lot of enthusiasts who are working on additional features and developing new functionality.
 * Accessibility & Versatility. You can use `Python` to solve different tasks from web developing to ML solutions. 
 
-To develop ML solution, you have to use `Python`, because it has libraries that makes ypur development easier and faster, sush as `NummPy`, 
+To develop ML solution, you have to use `Python`, because it has libraries that make your development easier and faster, such as `NummPy`, 
 `Scikit-learn`, `Pandas` and others.
 
 **Streamlit**
@@ -44,7 +44,7 @@ The key features are:
 * Short: Minimize code duplication. Multiple features from each parameter declaration. Fewer bugs.
 * Robust: Get production-ready code. With automatic interactive documentation.
 
-Comparing to `Flask`, we pay attention at `FastAPI` working speed. It was one if the biggest effort, because we have machine learning algorythm working
+Comparing to `Flask`, we pay attention at `FastAPI` working speed. It was one of the biggest effort, because we have machine learning algorythm working
 at the backend and we can not waste time on requests.
 
 ## Schema

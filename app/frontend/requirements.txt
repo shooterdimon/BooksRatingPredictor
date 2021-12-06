@@ -2,4 +2,4 @@ numpy==1.20.1
 requests==2.22.0
 pandas==1.2.3
 imageio
-streamlit
+streamlit=0.81
